@@ -18,13 +18,13 @@ printf( '<li %s>', hybrid_get_attr( 'comment' ) );
 
 			printf( '<time %s>', hybrid_get_attr( 'comment-published' ) );
 
-				printf( __( '%s ago', 'hybopress' ), human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) );
+				printf( __( '%s ago', 'elegant' ), human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) );
 
 			echo '</time>';
 
 			printf( '<a %s>', hybrid_get_attr( 'comment-permalink' ) );
 
-				_e( 'Permalink', 'hybopress' );
+				_e( 'Permalink', 'elegant' );
 
 			echo '</a>';
 
@@ -39,7 +39,7 @@ if ( '0' == $comment->comment_approved ) {
 
 		printf( '<em class="%s">', 'comment-awaiting-moderation' );
 
-			_e( 'Your comment is awaiting moderation.', 'hybopress' );
+			_e( 'Your comment is awaiting moderation.', 'elegant' );
 
 		echo '</em>';
 

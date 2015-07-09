@@ -59,8 +59,8 @@ function child_theme_hide_page_background( $show_hide ) {
 
 function child_theme_loop_pagination_args( $args ) {
 
-		$args['prev_text'] = __( '&laquo;', 'hybopress' );
-		$args['next_text'] = __( '&raquo;', 'hybopress' );
+		$args['prev_text'] = __( '&laquo;', 'elegant' );
+		$args['next_text'] = __( '&raquo;', 'elegant' );
 
 		return $args;
 
