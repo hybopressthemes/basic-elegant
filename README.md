@@ -1,2 +1,2 @@
-# basic-elegant
-Child Theme for Hybopress Basic
+# Basic Elegant
+Child Theme for Hybopress Basic.

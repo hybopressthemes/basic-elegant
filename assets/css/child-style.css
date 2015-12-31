@@ -39,12 +39,22 @@ Hack for logo
 	line-height: 100%;
 }
 
+.header-branding {
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.header-branding .dropdown-menu {
+    margin-top: 20px;
+}
+
 .header-branding .menu-style-4 .nav > li > a {
 	font-size: 9px;
 	font-style: normal;
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	margin-bottom: 33px;
 }
 
 .header-branding .menu-style-4 .nav > li > a {
@@ -63,7 +73,7 @@ Hack for logo
 	margin-top: 4px;
 }
 
-.breadcrumb {
+.breadcrumb-wrap {
 	font-size: 10px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -355,12 +365,6 @@ blockquote.alignleft {
 	-moz-osx-font-smoothing:grayscale;
 }
 
-.social-icons a.fa {
-    height: auto;
-    width: auto;
-    margin-left: 12px;
-}
-
 .social-icons a.fa::before {
     line-height: 1;
 }
@@ -515,4 +519,8 @@ li.comment article {
 .has-avatar.comment .comment-author {
   margin-top: 26px;
   margin-bottom: 4px;
+}
+
+.user-profile a {
+	font-weight: bold;
 }
