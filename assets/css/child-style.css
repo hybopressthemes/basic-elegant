@@ -114,19 +114,32 @@ Hack for logo
 }
 
 .format-gallery .entry-title:before {
-	content: "\f03e";
+    content: "\f03e";
+}
+
+.format-image .entry-title:before {
+    content: "\f03e";
+}
+
+.format-video .entry-title:before {
+    content: "\f01d"; /*f04b*/
+}
+
+.format-audio .entry-title:before {
+    content: "\f025";
 }
 
 .format-standard .entry-title:before {
-	content: "\f0f6";
+    content: "\f0f6";
 }
 
-.format-quote .entry-content blockquote:before {
-	content: "\f10d";
-}
-
+.format-quote .entry-content blockquote:before,
 .format-quote .entry-title:before {
-	content: "\f10d";
+    content: "\f10d";
+}
+
+.format-chat .entry-title:before {
+    content: "\f0e6";
 }
 
 .entry-byline .post-format-link:before,
